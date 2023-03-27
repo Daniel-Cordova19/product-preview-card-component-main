@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Montserrat:wght@700&display=swap');
+
+:root 
+
 * {
     box-sizing: border-box;
     border: solid red
@@ -7,8 +12,14 @@ body {
     margin: 0;
 }
 
-.prodct__info{
+.prodct__info {
     width: 370px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product_type {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 .product_image {
@@ -19,6 +30,10 @@ body {
 
 }
 
+.produt_price .offer{
+    text-decoration:line-through
+}
+
 .produt_price {
     display:flex;
     align-items: center;
@@ -27,8 +42,27 @@ body {
 
 .produt__info {
     padding: 1rem;
+    font-family: 'Fraunces', serif;
 }
 
 .pricie {
     font-size: 2rem;
 }
+
+.description{
+    line-height: 1.5rem;
+}
+
+.produt__info .product_type, .description, .produt_price .offer{
+    color: #a9a9b2;
+}
+
+.produt_price .pricie {
+    color: #3d8168;
+    font-family: 'Fraunces', serif;
+}
+
+.button_buy {
+    background-color: #3d8168;
+}
+
